@@ -10,7 +10,7 @@ app.use(express.json())
 
 app.get('/', (request: Request, response: Response) => {
   return response.json({
-    message: 'you\'re use me'
+    message: 'successfull'
   })
 })
 
